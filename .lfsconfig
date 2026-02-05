@@ -1,2 +1,3 @@
 [lfs]
-url = http://192.168.0.105:3030/iomotade/ajouts-lfs.git
+#url = https://192.168.0.105:3030/iomotade/ajouts-lfs
+url = ssh://git@localhost:23254/iomotade/ajouts-lfs.git
