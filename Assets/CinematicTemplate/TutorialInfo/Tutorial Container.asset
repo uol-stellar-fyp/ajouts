@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorial Container
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 0}
+  OrderInView: 0
+  BackgroundImage: {fileID: 0}
+  Title:
+    m_Untranslated: Cinematic Studio Tutorial
+  Subtitle:
+    m_Untranslated: Explore and expand on the Cinematic Studio Sample
+  Description:
+    m_Untranslated: Learning material based on the Cinematic Studio Sample.
+  ProjectLayout: {fileID: 102900000, guid: 385cbfaab159bcb40894d0341a418d64, type: 3}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Cinematic Content Creation with Sequences
+    Text:
+      m_Untranslated: "In this short introductory learning experience, you\u2019ll
+        explore the Cinematic Studio Sample and use some of Unity\u2019s key cinematic
+        features"
+    Metadata: 
+    Url: https://learn.unity.com/project/cinematic-content-creation-with-sequences
+    Image: {fileID: 2800000, guid: 9b54e3331e375234ba2c5ca77a077094, type: 3}
+    Tutorial: {fileID: 0}
