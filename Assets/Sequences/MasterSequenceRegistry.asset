@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e090b0de0a5e44ca6b2d437c25bed1, type: 3}
   m_Name: MasterSequenceRegistry
   m_EditorClassIdentifier: 
-  m_MasterSequences: []
+  m_MasterSequences:
+  - timeline: {fileID: 11400000, guid: 42d966458dfcd44159d6c1b9bb982a81, type: 2}
+    masterScene:
+      m_SceneAsset: {fileID: 102900000, guid: d40e8e90726854d7a930d203fb2eeaef, type: 3}
+      m_ScenePath: Assets/Scenes/Film.unity

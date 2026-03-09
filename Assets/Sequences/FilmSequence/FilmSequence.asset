@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713e0022c0ffe974bb14d5e0611b0797, type: 3}
+  m_Name: FilmSequence
+  m_EditorClassIdentifier: 
+  m_RootIndex: 0
+  m_Manager:
+    rid: 1889275792756834561
+  references:
+    version: 2
+    RefIds:
+    - rid: 1889275792756834561
+      type: {class: SequenceManager, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Data:
+        - rid: 1889275792756834562
+        - rid: 1889275792756834565
+        - rid: 1889275792756834572
+        - rid: 1889275792756834574
+        - rid: 1889275792756834576
+        - rid: 1889275792756834578
+        - rid: 1889275792756834580
+        m_AvailableIndices:
+          rid: 1889275792756834570
+    - rid: 1889275792756834562
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: FilmSequence
+        m_Fps: 24
+        m_Start: 0
+        m_Duration: 12
+        m_Parent: -1
+        m_Children: 010000000200000003000000040000000500000006000000
+        m_Timeline: {fileID: 11400000, guid: 42d966458dfcd44159d6c1b9bb982a81, type: 2}
+        m_ChildrenTrack: {fileID: 6798776125725917120, guid: 42d966458dfcd44159d6c1b9bb982a81,
+          type: 2}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 0}
+    - rid: 1889275792756834565
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S00_ExpoTextInSpace
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: c6f59aaa6fd7840baaef4b61f4e037d6, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 545592743471514067, guid: 42d966458dfcd44159d6c1b9bb982a81,
+          type: 2}
+    - rid: 1889275792756834570
+      type: {class: StackInt, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data: 
+    - rid: 1889275792756834572
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S01_AstroInElevator2Rocket
+        m_Fps: -1
+        m_Start: 4
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 54232347fbe184a48af9129ce2882be6, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 4777237642871451025, guid: 42d966458dfcd44159d6c1b9bb982a81,
+          type: 2}
+    - rid: 1889275792756834574
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S02_RocketLiftoff
+        m_Fps: -1
+        m_Start: 6
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 0a450d361c7714e7bba9d1f5c9a0b936, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: -4875768690777530107, guid: 42d966458dfcd44159d6c1b9bb982a81,
+          type: 2}
+    - rid: 1889275792756834576
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S03_RocketInSpace
+        m_Fps: -1
+        m_Start: 8
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: ae77bb29031b74a5392dfffc1e069126, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 5000892944866920142, guid: 42d966458dfcd44159d6c1b9bb982a81,
+          type: 2}
+    - rid: 1889275792756834578
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S04_RocketThroughWormhole
+        m_Fps: -1
+        m_Start: 10
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: d40265e7e28874042b4514b9cffdeba8, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 3036761275995177321, guid: 42d966458dfcd44159d6c1b9bb982a81,
+          type: 2}
+    - rid: 1889275792756834580
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S05_RocketToBlackhole
+        m_Fps: -1
+        m_Start: 12
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: ca9819fa2e11f4975bf5af4268304e71, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 3707274354376437682, guid: 42d966458dfcd44159d6c1b9bb982a81,
+          type: 2}
