@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1776585548403977999
+--- !u!1 &434729107293145926
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7354112090223184064}
-  - component: {fileID: 6751786938987030684}
+  - component: {fileID: 1385984582168740282}
+  - component: {fileID: 1847957018707597911}
   m_Layer: 0
-  m_Name: CameraInElevatorCineCam
+  m_Name: CamShakyOnRocketZoomedOutCineCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7354112090223184064
+--- !u!4 &1385984582168740282
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776585548403977999}
+  m_GameObject: {fileID: 434729107293145926}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 430767397408617608}
+  m_Father: {fileID: 494719818279467962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6751786938987030684
+--- !u!114 &1847957018707597911
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776585548403977999}
+  m_GameObject: {fileID: 434729107293145926}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
@@ -75,7 +75,7 @@ MonoBehaviour:
       BarrelClipping: 0.25
       Anamorphism: 0
   BlendHint: 0
---- !u!1 &3518271223522466598
+--- !u!1 &6349956244314232552
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,55 +83,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 430767397408617608}
-  - component: {fileID: 5542948502192124123}
-  - component: {fileID: -1314415692257740666}
+  - component: {fileID: 494719818279467962}
+  - component: {fileID: 1424198658720414052}
+  - component: {fileID: -676945090913650031}
   m_Layer: 0
-  m_Name: CameraInElevator
+  m_Name: CamShakyOnRocketZoomedOut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &430767397408617608
+--- !u!4 &494719818279467962
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3518271223522466598}
+  m_GameObject: {fileID: 6349956244314232552}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7354112090223184064}
+  - {fileID: 1385984582168740282}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5542948502192124123
+--- !u!114 &1424198658720414052
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3518271223522466598}
+  m_GameObject: {fileID: 6349956244314232552}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ddbf9d3bf6666344b1fb14e3e1e3e14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Type: Photography
---- !u!320 &-1314415692257740666
+--- !u!320 &-676945090913650031
 PlayableDirector:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3518271223522466598}
+  m_GameObject: {fileID: 6349956244314232552}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: c8b7656f23a13461fb2b6f4bf4ab556a, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: a7fb466f5cb994c82a35da50e62b075f, type: 2}
   m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1

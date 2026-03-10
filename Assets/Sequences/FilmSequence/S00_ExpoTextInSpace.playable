@@ -147,7 +147,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 2368714659605734559}
-    m_Duration: 25
+    m_Duration: 29.166666666666668
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5080699719899217035}
     m_EaseInDuration: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -8416048979452536461}
-    m_Duration: 25
+    m_Duration: 29.166666666666668
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4573679453484319815}
     m_EaseInDuration: 0
@@ -421,19 +421,88 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Cam4ExpoFixedCineCam
   - m_Version: 1
-    m_Start: 21.666666666666668
+    m_Start: 18.75
     m_ClipIn: 0
-    m_Asset: {fileID: -2776042759282460463}
-    m_Duration: 3.3333333333331936
+    m_Asset: {fileID: -1503365204052642464}
+    m_Duration: 6.25
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3077416152570781823}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.8333333333333321
-    m_BlendOutDuration: -1
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 1.25
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Cam4ExpoPanCineCam
+  - m_Version: 1
+    m_Start: 23.75
+    m_ClipIn: 0
+    m_Asset: {fileID: -2776042759282460463}
+    m_Duration: 5.416666666666291
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3077416152570781823}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 1.25
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -453,39 +522,6 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: CamFixedZoom2EarthCineCam
-  - m_Version: 1
-    m_Start: 18.75
-    m_ClipIn: 0
-    m_Asset: {fileID: -1503365204052642464}
-    m_Duration: 3.75
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -3077416152570781823}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: 0.8333333333333321
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Cam4ExpoPanCineCam
   m_Markers:
     m_Objects: []
   TrackPriority: 0
@@ -624,7 +660,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 7959800015308975257}
-    m_Duration: 25
+    m_Duration: 29.16666666666629
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3365466882190057171}
     m_EaseInDuration: 0
@@ -756,7 +792,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -519070112802905864}
-    m_Duration: 25
+    m_Duration: 29.16666666666629
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7949995543749148100}
     m_EaseInDuration: 0
@@ -863,7 +899,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -4827153816737968595}
-    m_Duration: 24.99999999999986
+    m_Duration: 29.16666666666629
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8487195872306017951}
     m_EaseInDuration: 0
