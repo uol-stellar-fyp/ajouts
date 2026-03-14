@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2902646887147878252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2881728179498484615}
+  m_Layer: 0
+  m_Name: CamTrackRocketSideLookAtTrgt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2881728179498484615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902646887147878252}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 20, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2539953862887854271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &3362754581961351898
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,6 +73,7 @@ GameObject:
   - component: {fileID: 2539953862887854271}
   - component: {fileID: 5050966741389473834}
   - component: {fileID: 1334205552252354271}
+  - component: {fileID: 4956526616247676012}
   m_Layer: 0
   m_Name: SpaceCraft
   m_TagString: Untagged
@@ -59,11 +91,12 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4241516543715737167}
   - {fileID: 6758343334631046101}
+  - {fileID: 2881728179498484615}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5050966741389473834
@@ -93,9 +126,33 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: -2542772996166250252, guid: 70293c73fa9634891ab6f4f1829fcc1f, type: 2}
+    value: {fileID: 4956526616247676012}
   m_ExposedReferences:
     m_References: []
+--- !u!95 &4956526616247676012
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015454818271955253}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &7491394230389639760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104,10 +161,110 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2539953862887854271}
     m_Modifications:
+    - target: {fileID: 58820351322425907, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 268921673489156826, guid: 9336d6b58675848cd9d131f4a86f632e,
         type: 3}
       propertyPath: m_Name
       value: FireParticleSystemLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 284001385889787690, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550143744165976196, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 569009214451012449, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 859674641009238618, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2052262960113972334, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085707240669695184, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429463971033443389, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2544112130506791320, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128496651737097792, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3903450295893782759, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4084985366245029507, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884503742073140265, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177670961538615037, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5177955153967070941, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5331962247213129051, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688682003393605489, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954228216937769874, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6279931311416634799, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493883670285140297, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6642812303990668917, guid: 9336d6b58675848cd9d131f4a86f632e,
         type: 3}
@@ -164,10 +321,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6718142663212217500, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7472804280435425059, guid: 9336d6b58675848cd9d131f4a86f632e,
         type: 3}
       propertyPath: m_Name
       value: spacecraft_with_rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601404445874211497, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108221017280637923, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8564641845298052304, guid: 9336d6b58675848cd9d131f4a86f632e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8735107939992762275, guid: 9336d6b58675848cd9d131f4a86f632e,
         type: 3}

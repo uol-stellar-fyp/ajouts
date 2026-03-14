@@ -1,5 +1,46 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7217617917082277751
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  DisplayName: 
+  VirtualCamera:
+    exposedName: a11e76649c1c840329a0e560e7909980
+    defaultValue: {fileID: 0}
+--- !u!114 &-7135904385443885210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Photography
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 9044219177017127988}
+  - {fileID: 6580841694581956411}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &-1827078851153920357
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25,7 +66,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 3904802374660561258}
-    m_Duration: 1
+    m_Duration: 31.249999999998998
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1827078851153920357}
     m_EaseInDuration: 0
@@ -92,7 +133,7 @@ MonoBehaviour:
     m_DisplayName: SpaceCraft
   m_Markers:
     m_Objects: []
---- !u!114 &-1341230147173937300
+--- !u!114 &-836115050545563105
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,7 +146,7 @@ MonoBehaviour:
   m_Name: SequenceAssetPlayableAsset
   m_EditorClassIdentifier: 
   director:
-    exposedName: 3c557010d2ec64f5a81871ef32655d63
+    exposedName: e4155acc0eaf94c668297d195483bcd6
     defaultValue: {fileID: 0}
 --- !u!114 &-491661771558943489
 MonoBehaviour:
@@ -128,7 +169,6 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children:
   - {fileID: -1827078851153920357}
-  - {fileID: 7549173634489856467}
   m_Clips: []
   m_Markers:
     m_Objects: []
@@ -147,6 +187,7 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: -491661771558943489}
+  - {fileID: -7135904385443885210}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 24
@@ -168,7 +209,7 @@ MonoBehaviour:
   director:
     exposedName: dd9d7de131e3746b8aa24e23c9a05735
     defaultValue: {fileID: 0}
---- !u!114 &7549173634489856467
+--- !u!114 &6580841694581956411
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,7 +219,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b200515c8e4330408b58689631dbd4b, type: 3}
-  m_Name: WalkBridge
+  m_Name: CamTrackRocket
   m_EditorClassIdentifier: 
   m_Version: 3
   m_AnimClip: {fileID: 0}
@@ -186,16 +227,16 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: -491661771558943489}
+  m_Parent: {fileID: -7135904385443885210}
   m_Children: []
   m_Clips:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -1341230147173937300}
-    m_Duration: 1
+    m_Asset: {fileID: -836115050545563105}
+    m_Duration: 18.750000000000007
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 7549173634489856467}
+    m_ParentTrack: {fileID: 6580841694581956411}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0
@@ -257,6 +298,99 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: WalkBridge
+    m_DisplayName: CamTrackRocket
   m_Markers:
     m_Objects: []
+--- !u!114 &9044219177017127988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05acc715f855ced458d76ee6f8ac6c61, type: 3}
+  m_Name: Cinemachine Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: -7135904385443885210}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -7217617917082277751}
+    m_Duration: 18.750000000000007
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 9044219177017127988}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: CamTrackRocketCineCam
+  m_Markers:
+    m_Objects: []
+  TrackPriority: 0
