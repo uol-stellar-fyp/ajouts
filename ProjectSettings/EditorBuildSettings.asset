@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mich-L_01.unity
     guid: bb99706b6d4321e4ca24e2693d013fde
   - enabled: 1
